@@ -14,7 +14,7 @@ export default class TabNavBar extends Component {
     static defaultProps = {
         selectedColor: 'rgb(22,131,251)'
     }
-
+    
     constructor(props) {
         super(props)
         this.state = {

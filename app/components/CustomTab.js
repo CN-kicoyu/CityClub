@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, Image, View, TouchableOpacity, ScrollView} from 'react-native';
 import px2dp from '../utils/px2dp';
 
-export default class CustomTab extends Component {
 
+export default class CustomTab extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -29,7 +29,7 @@ export default class CustomTab extends Component {
     }
     renderTabOption(item, i) {
         return (
-            <TouchableOpacity onPress={() => this.props.goToPage(i)} style={styles.tab} key={i}>
+            <TouchableOpacity onPress={() => this.props.goToPage(i)} style={styles.tab} key={i} >
                 <View style={styles.tabItem}>
                     <Image style={styles.customIcon} source={this.props.activeTab === i ? item.hoverURL : item.normalURL} />
                     <Text style={[styles.customTxt, this.props.activeTab === i && styles.active]}>{item.title}</Text>
@@ -44,6 +44,9 @@ const styles = StyleSheet.create({
         width:px2dp(118),
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor:'#fff',
+        borderBottomColor:'#efefef',
+        borderBottomWidth: 1
     },
     customIcon: {
         width: px2dp(40),
@@ -62,3 +65,4 @@ const styles = StyleSheet.create({
         borderBottomWidth: px2dp(4)
     }
 })
+

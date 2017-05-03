@@ -13,7 +13,7 @@ export default class CustomTab extends Component {
                     this.props.urlSource.map((item, i) => {
                         return (
                             <View style={styles.sourceView} key={i}>
-                                <Image style={styles.sourceImg} source={item.imgURL} />
+                                <Image style={styles.sourceImg} source={{uri:item.imgURL}} />
                                 <Text style={styles.sourceTxt}>{item.name}</Text>
                             </View>
                         )
