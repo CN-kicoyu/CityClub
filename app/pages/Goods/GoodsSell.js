@@ -7,19 +7,18 @@ import px2dp from '../../utils/px2dp';
 
 export default class GoodsSell extends Component {
   static navigationOptions = {
-		headerTitle: (
-			<Text style={{color: '#fff',fontSize:px2dp(38),marginLeft:px2dp(340)}}>电商</Text>
-		),
-		headerRight: (
-            <TouchableOpacity style={{flexDirection: 'row',alignItems: 'center'}}>
-				<Image source={require('../../assets/images/icon_search.png')}  style={{width:px2dp(41),height:px2dp(35),marginRight:px2dp(30)}}/>
-			</TouchableOpacity>
-        ),
-		headerStyle: {
-			backgroundColor: '#4f95ff'
-			
-		}  
-	}
+    headerTitle: (
+      <Text style={{ color: '#fff', fontSize: px2dp(38), marginLeft: px2dp(340) }}>电商</Text>
+    ),
+    headerRight: (
+      <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }}>
+        <Image source={require('../../assets/images/icon_search.png')} style={{ width: px2dp(41), height: px2dp(35), marginRight: px2dp(30) }} />
+      </TouchableOpacity>
+    ),
+    headerStyle: {
+      backgroundColor: '#4f95ff'
+    }
+  }
 
   constructor(props) {
     super(props)
@@ -27,15 +26,15 @@ export default class GoodsSell extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1,justifyContent: 'flex-start' }}>
+      <View style={{ flex: 1, justifyContent: 'flex-start' }}>
         <View style={styles.tabWrap}>
-          <TabSubNav navigator={this.props.navigator}/>
+          <TabSubNav onPress={(name) => this.props.navigation.navigate('GoodsDetails',{goods: name}) }/>
           <View style={styles.tabDown}>
             <Image style={styles.tabDownIcon} source={require('../../assets/images/icon_arrow-down.png')} />
           </View>
-          
+
         </View>
-        
+
       </View>
     )
   }
@@ -55,39 +54,39 @@ const styles = StyleSheet.create({
   },
   headSearch: {
     position: 'absolute',
-    width:px2dp(41),
-    height:px2dp(35),
-    top:'50%',
+    width: px2dp(41),
+    height: px2dp(35),
+    top: '50%',
     right: px2dp(26),
     marginTop: px2dp(-17.5)
   },
   tabWrap: {
-    flex: 1, 
+    flex: 1,
     height: px2dp(110),
-    position:'relative'
+    position: 'relative'
   },
   tabDown: {
     width: px2dp(100),
     backgroundColor: '#fff',
     height: px2dp(110),
-    borderLeftWidth:1,
-    borderLeftColor:'#e5e5e5',
-    shadowOffset:{ width:2, height:2 }, 
-    shadowColor:'black', 
-    shadowOpacity:0.9, 
-    shadowRadius:1,
-    alignItems:'center',
-    position:'absolute',
+    borderLeftWidth: 1,
+    borderLeftColor: '#e5e5e5',
+    shadowOffset: { width: 2, height: 2 },
+    shadowColor: 'black',
+    shadowOpacity: 0.9,
+    shadowRadius: 1,
+    alignItems: 'center',
+    position: 'absolute',
     top: 0,
-    right:0,
+    right: 0,
     borderBottomWidth: 1,
     borderBottomColor: '#ccc'
   },
   tabDownIcon: {
     marginTop: px2dp(50),
-    width:px2dp(30),
-    height:px2dp(17),
-    alignItems:'center',
+    width: px2dp(30),
+    height: px2dp(17),
+    alignItems: 'center',
     flexDirection: 'column',
   }
 })

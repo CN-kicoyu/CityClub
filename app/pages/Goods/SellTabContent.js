@@ -27,7 +27,7 @@ export default class GoodsSell extends Component {
                     <Text style={styles.contentMoreTxt}>排行榜</Text>
                     <Image source={require('../../assets/images/icon_arrow-right.png')} style={styles.contentArrow} />
                   </View>
-                  <ThemeIMG urlSource={items.subURL} />
+                  <ThemeIMG urlSource={items.subURL} onPress={this.props.onPress}/>
                 </View>
               )
             }) : <Text style={styles.loading}>数据正在加载中...</Text>

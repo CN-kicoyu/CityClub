@@ -282,7 +282,7 @@ export default class TabSubNav extends Component {
                         return (
                             <View tabLabel={item.title} key={i} tabTag={item.title} >
                                 {/*不同页面渲染不同数据*/}
-                                <SellTabContent contentImgs={this.state['contentImg' + i]} />
+                                <SellTabContent contentImgs={this.state['contentImg' + i]} onPress={this.props.onPress}/>
                             </View>
                         )
                     })

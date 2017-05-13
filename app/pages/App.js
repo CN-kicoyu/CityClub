@@ -5,8 +5,9 @@ import { StackNavigator, TabNavigator } from 'react-navigation'
 import GoodsSell from './Goods/GoodsSell';
 import PersonalSet from './Personal/PersonalSet';
 import Home from './Home/Home';
-import Clubs from './Clubs/three';
+import Clubs from './Clubs/ClubPage';
 import Discover from './Discover/Discover';
+import GoodsDetails from './Goods/goodsDetail'
 
 import px2dp from '../utils/px2dp';
 
@@ -91,12 +92,12 @@ const TabNav = TabNavigator({
             activeTintColor: 'rgb(22,131,251)',
             inactiveTintColor: '#959595',
             pressColor: 'rgb(22,131,251)',
-            style: { backgroundColor: '#ffffff', height: px2dp(98)},
+            style: { backgroundColor: '#ffffff', height: px2dp(98) },
             indicatorStyle: { height: 1 },
             showIcon: true,
             labelStyle: {
                 fontSize: px2dp(20),
-                marginTop:px2dp(4)
+                marginTop: px2dp(4)
             },
             iconStyle: {
                 width: px2dp(48),
@@ -115,7 +116,8 @@ const TabNav = TabNavigator({
 //     }
 // })
 const Navigator = StackNavigator({
-    TabNav: {screen: TabNav}
+    TabNav: { screen: TabNav },
+    GoodsDetails: { screen: GoodsDetails }
 })
 
 const styles = StyleSheet.create({

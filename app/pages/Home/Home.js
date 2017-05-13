@@ -32,9 +32,8 @@ export default class Home extends Component {
 			</TouchableOpacity>
         ),
 		headerLeft: (
-            <TouchableOpacity style={{flexDirection: 'row',alignItems: 'center'}}>
-				<Text style={{color: '#fff',fontSize:px2dp(42),marginLeft:px2dp(30)}}>信息港</Text>
-			</TouchableOpacity>
+			// <Text style={{color: '#fff',fontSize:px2dp(42),marginLeft:px2dp(30),flexDirection: 'row',alignItems: 'center'}}>信息港</Text>
+			<Image source={require('../../assets/images/home_logo.png')} style={{marginLeft:px2dp(30),flexDirection: 'row',alignItems: 'center', width:px2dp(110), height: px2dp(38)}} />			
         ),
 		headerStyle: {
 			backgroundColor: '#4f95ff'
@@ -88,5 +87,12 @@ const styles = StyleSheet.create({
 		flexDirection: 'column',
 		justifyContent: 'flex-start',
 		flex: 1
+	},
+	headLeft: {
+		color: '#fff',
+		fontSize:px2dp(42),
+		marginLeft:px2dp(30),
+		flexDirection: 'row',
+		alignItems: 'center'
 	}
 });
