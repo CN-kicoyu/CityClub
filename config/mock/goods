@@ -1,0 +1,713 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "title": "母婴分类推荐",
+            "titleURL": "require('../../assets/images/bg_img-2.jpg')",
+            "titleId": 5,
+            "subURL": [
+                {
+                    "subTitle": "婴儿用品",
+                    "subTitleURL": "require('../../assets/images/bg_img-2.jpg')",
+                    "subId": 501,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/835494112/TB2RlOgjpXXXXXoXpXXXXXXXXXX_!!835494112.jpg_230x230.jpg",
+                            "name": "宝宝围兜",
+                            "nameId": 201705001
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/67191114/TB2IFIzmStkpuFjy0FhXXXQzFXa_!!67191114.jpg_230x230.jpg",
+                            "name": "婴儿浴巾连帽",
+                            "nameId": 201705002
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/35942049/TB2YFeYbeJ8puFjy1XbXXagqVXa_!!35942049.jpg_230x230.jpg",
+                            "name": "婴幼训练筷",
+                            "nameId": 201705003
+                        },
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2738901647/TB2YfSTaEHB11BjSspeXXan0FXa_!!2738901647.jpg_230x230.jpg",
+                            "name": "萌猴汤勺 ",
+                            "nameId": 201705004
+                        },
+                        {
+                            "imgURL": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/45097749/TB2D.FQbFXXXXa2XXXXXXXXXXXX_!!45097749.jpg_230x230.jpg",
+                            "name": "婴儿手绢 ",
+                            "nameId": 201705005
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/TB1KCuRQXXXXXbwXFXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "婴儿尿不湿",
+                            "nameId": 201705006
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "孕妇用品",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 502,
+                    "subIMG": [
+                        {
+                            "imgURL": "http://img02.taobaocdn.com/bao/uploaded/i2/TB1jDpHPXXXXXcAXVXXYXGcGpXX_M2.SS2_170x170.jpg",
+                            "name": "孕妇连衣裙 ",
+                            "nameId": 201705007
+                        },
+                        {
+                            "imgURL": "http://img01.taobaocdn.com/bao/uploaded/i1/1731674712/TB2oVoznFXXXXaEXXXXXXXXXXXX_!!1731674712.jpg_170x170.jpg",
+                            "name": "孕妇打底裤",
+                            "nameId": 201705008
+                        },
+                        {
+                            "imgURL": "http://img03.taobaocdn.com/bao/uploaded/i3/TB1B3EtLVXXXXczXVXXYXGcGpXX_M2.SS2_170x170.jpg",
+                            "name": "孕妇T恤",
+                            "nameId": 201705009
+                        },
+                        {
+                            "imgURL": "http://img03.taobaocdn.com/bao/uploaded/i3/TB1xEvMLVXXXXczXVXXYXGcGpXX_M2.SS2_170x170.jpg",
+                            "name": " 孕妇内裤",
+                            "nameId": 201705010
+                        },
+                        {
+                            "imgURL": "http://img04.taobaocdn.com/bao/uploaded/i4/13883804/TB2JrYTajzyQeBjy1zdXXaInpXa_!!13883804.jpg_170x170.jpg",
+                            "name": "月子鞋 ",
+                            "nameId": 201705011
+                        },
+                        {
+                            "imgURL": "http://img02.taobaocdn.com/bao/uploaded/i2/109721895/TB26g3hmXXXXXayXpXXXXXXXXXX_!!109721895.jpg_170x170.jpg",
+                            "name": "托腹带",
+                            "nameId": 201705012
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "护肤用品",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 503,
+                    "subIMG": [
+                        {
+                            "imgURL": "http://img03.taobaocdn.com/bao/uploaded/i3/420825789/TB2p1dBhrBmpuFjSZFuXXaG_XXa_!!420825789.jpg_170x170.jpg",
+                            "name": "雪嫩精华液",
+                            "nameId": 201705013
+                        },
+                        {
+                            "imgURL": "http://img02.taobaocdn.com/bao/uploaded/i2/T1XW0AXaJGXXcnacI6_060846.jpg_170x170.jpg",
+                            "name": "bb霜",
+                            "nameId": 201705014
+                        },
+                        {
+                            "imgURL": "http://img04.taobaocdn.com/bao/uploaded/i4/12317459/TB2UHCAXZtnpuFjSZFvXXbcTpXa_!!12317459.jpg_170x170.jpg",
+                            "name": "润肤霜",
+                            "nameId": 201705015
+                        },
+                        {
+                            "imgURL": "http://img01.taobaocdn.com/bao/uploaded/i1/116138063/TB2XwV_nVXXXXb_XpXXXXXXXXXX_!!116138063.jpg_170x170.jpg",
+                            "name": "孕妇保护霜 ",
+                            "nameId": 201705016
+                        },
+                        {
+                            "imgURL": "http://img03.taobaocdn.com/bao/uploaded/i3/TB1rbwJLXXXXXXLXpXXYXGcGpXX_M2.SS2_170x170.jpg",
+                            "name": "产后护手霜",
+                            "nameId": 201705017
+                        },
+                        {
+                            "imgURL": "http://img01.taobaocdn.com/bao/uploaded/i1/TB17KoWJXXXXXbiXpXXXXXXXXXX_!!0-item_pic.jpg_170x170.jpg",
+                            "name": "孕妇护手霜",
+                            "nameId": 201705018
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "女神夏季专场",
+            "titleURL": "require('../../assets/images/bg_img-1.jpg')",
+            "titleId": 1,
+            "subURL": [
+                {
+                    "subTitle": "美裙系列",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 101,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/704298669/TB27sHSXPzyQeBjy0FjXXc5CVXa_!!704298669.jpg_180x180xz.jpg",
+                            "name": "镂空连衣裙",
+                            "nameId": 201701001
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i2/704298669/TB2myYAh3RkpuFjy1zeXXc.6FXa_!!704298669.jpg_180x180xz.jpg",
+                            "name": "轻奢系连衣裙",
+                            "nameId": 201701002
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/201512228/TB2ZxqTjylnpuFjSZFgXXbi7FXa_!!201512228.png_180x180xz.jpg",
+                            "name": "蕾丝礼服裙",
+                            "nameId": 201701003
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/23501375/TB2lpKgl80kpuFjy1zdXXXuUVXa_!!23501375.jpg_180x180xz.jpg",
+                            "name": "包臀短裙",
+                            "nameId": 201701004
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i2/TB1CAL4QFXXXXXSXpXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "大口袋半裙",
+                            "nameId": 201701005
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/TB1y2EBQFXXXXXXXVXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "真丝半裙",
+                            "nameId": 201701006
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "夏装上衣",
+                    "subTitleURL": "require('../../assets/images/bg_img-2.jpg')",
+                    "subId": 102,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/350596546/TB2sUFRhHJmpuFjSZFwXXaE4VXa_!!350596546.jpg_180x180xz.jpg",
+                            "name": "印花短袖",
+                            "nameId": 201701007
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/1092603417/TB2btkPe4XlpuFjSsphXXbJOXXa_!!1092603417.jpg_180x180xz.jpg",
+                            "name": "蕾丝打底衫",
+                            "nameId": 201701008
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/434478381/TB27lu3fl0lpuFjSszdXXcdxFXa_!!434478381.jpg_180x180xz.jpg",
+                            "name": "V领长袖",
+                            "nameId": 201701009
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i8/TB1eNdRPVXXXXbKXFXXYXGcGpXX_M2.SS2_180x180xz.jpg",
+                            "name": "长款T恤",
+                            "nameId": 201701010
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/1587395101/TB2GLXNgmFmpuFjSZFrXXayOXXa_!!1587395101.jpg_180x180xz.jpg",
+                            "name": "修身打底衫",
+                            "nameId": 201701011
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/13261504/TB2gRY8lrBnpuFjSZFGXXX51pXa_!!13261504.jpg_180x180xz.jpg",
+                            "name": "圆领网纱上衣",
+                            "nameId": 201701012
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "美腿女裤",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 103,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/TB1MbfBQFXXXXc6aXXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "小宽松垮裤",
+                            "nameId": 201701013
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i2/12375520/TB24TqojAqvpuFjSZFhXXaOgXXa_!!12375520.jpg_180x180xz.jpg",
+                            "name": "阔腿裤",
+                            "nameId": 201701014
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/TB1kP.1QpXXXXbuXVXXYXGcGpXX_M2.SS2_180x180xz.jpg",
+                            "name": "高腰款竖条短裤",
+                            "nameId": 201701015
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/2747985175/TB2e.V4l9VmpuFjSZFFXXcZApXa_!!2747985175.jpg_180x180xz.jpg",
+                            "name": "开叉微微喇",
+                            "nameId": 201701016
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/TB1hMB6QpXXXXcLaXXXYXGcGpXX_M2.SS2_180x180xz.jpg",
+                            "name": "牛仔背带裤 ",
+                            "nameId": 201701017
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i5/TB1E5DIQFXXXXacaFXXYXGcGpXX_M2.SS2_180x180xz.jpg",
+                            "name": "微辣黑色仔裤",
+                            "nameId": 201701018
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "男神绅士之家",
+            "titleURL": "require('../../assets/images/bg_img-2.jpg')",
+            "titleId": 2,
+            "subURL": [
+                {
+                    "subTitle": "风度上衣",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 201,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/168918938/TB2aZxElFXXXXb4XXXXXXXXXXXX_!!168918938.jpg_230x230.jpg",
+                            "name": "男士风衣",
+                            "nameId": 201702001
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2524654860/TB2hWjuhItnpuFjSZFKXXalFFXa_!!2524654860.jpg_230x230.jpg",
+                            "name": "夹克男士 ",
+                            "nameId": 201702002
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/TB1JIlZQXXXXXXuaXXXYXGcGpXX_M2.SS2_230x230.jpg",
+                            "name": "冲锋衣",
+                            "nameId": 201702003
+                        },
+                        {
+                            "imgURL": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i4/2519118424/TB21yaZXg_xQeBjy0FoXXX1vpXa_!!2519118424.jpg_230x230.jpg",
+                            "name": "薄款披风",
+                            "nameId": 201702004
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/693792452/TB2xYRSqXXXXXXnXpXXXXXXXXXX_!!693792452.jpg_230x230.jpg",
+                            "name": "薄款翻领",
+                            "nameId": 201702005
+                        },
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/670756988/TB2JPUfdNxmpuFjSZFNXXXrRXXa_!!670756988.jpg_230x230.jpg",
+                            "name": "呢子大衣",
+                            "nameId": 201702006
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "夏装T恤",
+                    "subTitleURL": "require('../../assets/images/bg_img-2.jpg')",
+                    "subId": 202,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/823608562/TB2C2lAbxaK.eBjSZFwXXXjsFXa_!!823608562.jpg_230x230.jpg",
+                            "name": "打底衫",
+                            "nameId": 201702007
+                        },
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2628458303/TB2wdF_gbBmpuFjSZFuXXaG_XXa_!!2628458303.jpg_230x230.jpg",
+                            "name": "polo衫 ",
+                            "nameId": 201702008
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/TB1YHgzLFXXXXaZaXXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "亚麻棉",
+                            "nameId": 201702009
+                        },
+                        {
+                            "imgURL": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2025106341/TB2U7Lwk4XkpuFjy0FiXXbUfFXa_!!2025106341.jpg_230x230.jpg",
+                            "name": "短袖T恤",
+                            "nameId": 201702010
+                        },
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/165560482/TB26nhxihXlpuFjSsphXXbJOXXa_!!165560482.jpg_230x230.jpg",
+                            "name": "修身针织",
+                            "nameId": 201702011
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/274397874/TB2cmC6qXXXXXanXFXXXXXXXXXX_!!274397874.jpg_230x230.jpg",
+                            "name": "v领衫",
+                            "nameId": 201702012
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "休闲长裤",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 203,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i4/TB1_fixNXXXXXcfXVXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "束脚裤",
+                            "nameId": 201702013
+                        },
+                        {
+                            "imgURL": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/1981424429/TB290gKfyRnpuFjSZFCXXX2DXXa_!!1981424429.jpg_230x230.jpg",
+                            "name": "弹力休闲裤",
+                            "nameId": 201702014
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/TB1yGlsQXXXXXclaXXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "小脚裤",
+                            "nameId": 201702015
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/3020349734/TB2m73UlC0mpuFjSZPiXXbssVXa_!!3020349734.jpg_230x230.jpg",
+                            "name": "哈伦裤子 ",
+                            "nameId": 201702016
+                        },
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/2438392744/TB2glVzjohnpuFjSZFpXXcpuXXa_!!2438392744.jpg_230x230.jpg",
+                            "name": "休闲裤",
+                            "nameId": 201702017
+                        },
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/1117440553/TB2jhgsd4BmpuFjSZFDXXXD8pXa_!!1117440553.jpg_230x230.jpg",
+                            "name": "八分小脚裤",
+                            "nameId": 201702018
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "鞋靴夏季专场",
+            "titleURL": "require('../../assets/images/bg_img-2.jpg')",
+            "titleId": 3,
+            "subURL": [
+                {
+                    "subTitle": "女鞋系列",
+                    "subTitleURL": "require('../../assets/images/bg_img-2.jpg')",
+                    "subId": 301,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/1724865687/TB2KBlZhMJlpuFjSspjXXcT.pXa_!!1724865687.jpg_180x180xz.jpg",
+                            "name": "平跟短靴",
+                            "nameId": 201703001
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/444261814/TB2nDfsftRopuFjSZFtXXcanpXa_!!444261814.jpg_180x180xz.jpg",
+                            "name": "休闲单鞋",
+                            "nameId": 201703002
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/1929123323/TB2qk5vi1J8puFjy1XbXXagqVXa_!!1929123323.jpg_180x180xz.jpg",
+                            "name": "漆皮单鞋",
+                            "nameId": 201703003
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/TB1_Ut3HXXXXXXPapXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "尖头高跟鞋",
+                            "nameId": 201703004
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/554442638/TB2DXEeebJkpuFjy1zcXXa5FFXa_!!554442638.jpg_180x180xz.jpg",
+                            "name": "尖头女鞋",
+                            "nameId": 201703005
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/41166151/TB2QVyRctFopuFjSZFHXXbSlXXa_!!41166151.jpg_180x180xz.jpg",
+                            "name": "圆头单鞋",
+                            "nameId": 201703006
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "帅气男鞋",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 302,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i7/TB1qmL2NXXXXXXDapXXYXGcGpXX_M2.SS2_170x170.jpg",
+                            "name": "男复古靴",
+                            "nameId": 201703007
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i2/TB1Yt41PpXXXXbRXFXXYXGcGpXX_M2.SS2_170x170.jpg",
+                            "name": "休闲皮鞋",
+                            "nameId": 201703008
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i2/2815609436/TB2Xab5Xywd61BjSZFtXXai7XXa_!!2815609436.jpg_170x170.jpg",
+                            "name": "尖头系带",
+                            "nameId": 201703009
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/TB1AUTjOVXXXXaAXVXXYXGcGpXX_M2.SS2_170x170.jpg",
+                            "name": "鳄鱼纹低帮",
+                            "nameId": 201703010
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/TB1z9GVLFXXXXXnapXXXXXXXXXX_!!0-item_pic.jpg_170x170.jpg",
+                            "name": "尖头皮鞋 ",
+                            "nameId": 201703011
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/TB1nn5hHFXXXXX.apXXXXXXXXXX_!!0-item_pic.jpg_170x170.jpg",
+                            "name": "内增高婚鞋",
+                            "nameId": 201703012
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "高筒鞋靴",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 303,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/TB1xObZNpXXXXaNapXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "圆头高筒女靴 ",
+                            "nameId": 201703013
+                        },
+                        {
+                            "imgURL": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/TB1i0e7NXXXXXcOXXXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "平底骑士靴",
+                            "nameId": 201703014
+                        },
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/TB1Lr2cNVXXXXabapXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "中高筒女鞋 ",
+                            "nameId": 201703015
+                        },
+                        {
+                            "imgURL": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/TB1RS3.KXXXXXXuXXXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "中跟潮女靴",
+                            "nameId": 201703016
+                        },
+                        {
+                            "imgURL": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i2/TB1CNtwKFXXXXX7XpXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "棉靴高跟女鞋",
+                            "nameId": 201703017
+                        },
+                        {
+                            "imgURL": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/TB1OttWNpXXXXb5XVXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg",
+                            "name": "细跟高筒靴 ",
+                            "nameId": 201703018
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "箱包系列专场",
+            "titleURL": "require('../../assets/images/bg_img-2.jpg')",
+            "titleId": 4,
+            "subURL": [
+                {
+                    "subTitle": "气质女包",
+                    "subTitleURL": "require('../../assets/images/bg_img-2.jpg')",
+                    "subId": 401,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/TB1rmMTIXXXXXa5XVXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "铆钉双肩包",
+                            "nameId": 201704001
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/2338233897/TB2230wahwb61BjSZJiXXbD3XXa_!!2338233897.jpg_180x180xz.jpg",
+                            "name": "真皮双肩包",
+                            "nameId": 201704002
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/TB1Zgn8QFXXXXc0XFXXSutbFXXX.jpg_350x350q70",
+                            "name": "链条小包包",
+                            "nameId": 201704003
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/TB1fiYEQFXXXXb0XVXXSutbFXXX.jpg_350x350q70",
+                            "name": "单肩斜挎包",
+                            "nameId": 201704004
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/TB1g8GeQFXXXXXrXFXXSutbFXXX.jpg_350x350q70",
+                            "name": "链条小包",
+                            "nameId": 201704005
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/TB1ADH1QFXXXXcgXpXXSutbFXXX.jpg_350x350q70",
+                            "name": "脸谱信封包",
+                            "nameId": 201704006
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "商务男包",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 402,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/TB1JLnaPpXXXXXeXXXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "手抓包",
+                            "nameId": 201704007
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i2/TB1eX94IVXXXXbIXVXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "单肩斜跨包",
+                            "nameId": 201704008
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i5/TB1V02FPVXXXXcrXFXXYXGcGpXX_M2.SS2_180x180xz.jpg",
+                            "name": "随身小包",
+                            "nameId": 201704009
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/847496387/TB2f2BPhJ0opuFjSZFxXXaDNVXa_!!847496387.jpg_180x180xz.jpg",
+                            "name": "男士胸包",
+                            "nameId": 201704010
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/72960638/TB2cK1EdFXXXXc1XXXXXXXXXXXX_!!72960638.jpg_180x180xz.jpg",
+                            "name": " 帆布包",
+                            "nameId": 201704011
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i5/TB1BYIxNXXXXXbEXFXXYXGcGpXX_M2.SS2_180x180xz.jpg",
+                            "name": "公文包",
+                            "nameId": 201704012
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "拉杆箱系列",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 403,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/849842541/TB2YJ2TfUhnpuFjSZFpXXcpuXXa_!!849842541.jpg_180x180xz.jpg",
+                            "name": "铝框拉杆箱",
+                            "nameId": 201704013
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/TB1e84hIFXXXXcQXFXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "斑马纹拉杆箱",
+                            "nameId": 201704014
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/1710631418/TB2K.emo5pnpuFjSZFkXXc4ZpXa_!!1710631418.jpg_180x180xz.jpg",
+                            "name": "复古登机箱",
+                            "nameId": 201704015
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/869075200/TB2SEcWXrJmpuFjSZFwXXaE4VXa_!!869075200.png_180x180xz.jpg",
+                            "name": "儿童箱",
+                            "nameId": 201704016
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i2/360174592/TB28RR3hB8kpuFjSspeXXc7IpXa_!!360174592.jpg_180x180xz.jpg",
+                            "name": "卡通行李箱",
+                            "nameId": 201704017
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/677397148/TB2hvJbX_ka61Bjy0FoXXb1sFXa_!!677397148.jpg_180x180xz.jpg",
+                            "name": "蝴蝶镜面",
+                            "nameId": 201704018
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "内衣系列专场",
+            "titleURL": "require('../../assets/images/bg_img-1.jpg')",
+            "titleId": 6,
+            "subURL": [
+                {
+                    "subTitle": "冬季保暖内衣",
+                    "subTitleURL": "require('../../assets/images/bg_img-1.jpg')",
+                    "subId": 601,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/TB1GlMwNXXXXXasXFXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "中老年高领",
+                            "nameId": 201706001
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/TB155KNGVXXXXcSXFXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "圆领棉毛衫",
+                            "nameId": 201706002
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/764839020/TB2HqK0c5GO.eBjSZFpXXb3tFXa_!!764839020.jpg_180x180xz.jpg",
+                            "name": "秋衣秋裤男",
+                            "nameId": 201706003
+                        },
+                        {
+                            "imgURL": "https://gd3.alicdn.com/imgextra/i3/0/TB1PEFRLXXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_400x400.jpg",
+                            "name": "打底衫",
+                            "nameId": 201706004
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/855679611/TB2k1jXg80kpuFjSsppXXcGTXXa_!!855679611.jpg_180x180xz.jpg",
+                            "name": "棉质秋衣秋裤",
+                            "nameId": 201706005
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/2869597730/TB2KS_SoVXXXXaVXXXXXXXXXXXX_!!2869597730.jpg_180x180xz.jpg",
+                            "name": "白色男女士纯棉",
+                            "nameId": 201706006
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "女性内衣",
+                    "subTitleURL": "require('../../assets/images/bg_img-2.jpg')",
+                    "subId": 602,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/1851548245/TB2fovIXByN.eBjSZFkXXb8YFXa_!!1851548245.jpg_180x180xz.jpg",
+                            "name": "聚拢学生文胸",
+                            "nameId": 201706007
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/264750887/TB2wJQghYplpuFjSspiXXcdfFXa_!!264750887.jpg_180x180xz.jpg",
+                            "name": "聚拢内衣",
+                            "nameId": 201706008
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/TB1YbBXOFXXXXXFXFXXYXGcGpXX_M2.SS2_180x180xz.jpg",
+                            "name": "大学生内衣",
+                            "nameId": 201706009
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/45792894/TB2gutLX3Uc61BjSZFoXXac1FXa_!!45792894.jpg_180x180xz.jpg",
+                            "name": "杯深V文胸",
+                            "nameId": 201706010
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/735992811/TB2vST.pVXXXXcBXXXXXXXXXXXX_!!735992811.jpg_180x180xz.jpg",
+                            "name": "防走光内衣",
+                            "nameId": 201706011
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/TB1AhnRIFXXXXaqXXXXXXXXXXXX_!!2-item_pic.png_180x180xz.jpg",
+                            "name": "抹胸式内衣",
+                            "nameId": 201706012
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "男性内衣",
+                    "subTitleURL": "require('../../assets/images/bg_img-2.jpg')",
+                    "subId": 603,
+                    "subIMG": [
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i3/363298395/TB2KF8XX43X61Bjy0FlXXaGtVXa_!!363298395.jpg_180x180xz.jpg",
+                            "name": "四角短裤",
+                            "nameId": 201706013
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/T1dZlSFLpXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "三角裤纯色",
+                            "nameId": 201706014
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/96197100/TB2pulRa.5O.eBjSZFxXXaaJFXa_!!96197100.jpg_180x180xz.jpg",
+                            "name": "紧身保暖裤",
+                            "nameId": 201706015
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i4/408447871/TB2nI.RdMxlpuFjSszgXXcJdpXa_!!408447871.jpg_180x180xz.jpg",
+                            "name": "运动四角裤",
+                            "nameId": 201706016
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i1/TB1lHWpHFXXXXXhaXXXXXXXXXXX_!!0-item_pic.jpg_180x180xz.jpg",
+                            "name": "男士平角裤",
+                            "nameId": 201706017
+                        },
+                        {
+                            "imgURL": "https://gw.alicdn.com/bao/uploaded/i2/2575539299/TB2D0MBfr_0UKFjy1XaXXbKfXXa_!!2575539299.jpg_180x180xz.jpg",
+                            "name": "4条礼盒装",
+                            "nameId": 201706018
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 'use strict';
 
 import React, { Component } from 'react';
-import { StyleSheet, Text, Image, View, TouchableOpacity, ScrollView} from 'react-native';
+import { StyleSheet, Text, Image, View, TouchableOpacity, ScrollView } from 'react-native';
 import px2dp from '../utils/px2dp';
 
 export default class CustomTab extends Component {
@@ -15,14 +15,14 @@ export default class CustomTab extends Component {
 
     render() {
         return (
-            <View style={{ height: px2dp(110),flexDirection: 'row' }}>
+            <View style={{ height: px2dp(110), flexDirection: 'row' }}>
                 <ScrollView
-                horizontal={true}
-                showsHorizontalScrollIndicator={false}
-                showsVerticalScrollIndicator={false}
-                directionalLockEnabled={true}
-                scrollsToTop={false}>
-                {this.props.tabLists.map((tab, i) => this.renderTabOption(tab, i))}
+                    horizontal={true}
+                    showsHorizontalScrollIndicator={false}
+                    showsVerticalScrollIndicator={false}
+                    directionalLockEnabled={true}
+                    scrollsToTop={false}>
+                    {this.props.tabLists.map((tab, i) => this.renderTabOption(tab, i))}
                 </ScrollView>
             </View>
         )
@@ -41,9 +41,12 @@ export default class CustomTab extends Component {
 
 const styles = StyleSheet.create({
     tab: {
-        width:px2dp(118),
+        width: px2dp(118),
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#fff',
+        borderBottomWidth: 1,
+        borderBottomColor: '#ccc'
     },
     customIcon: {
         width: px2dp(40),

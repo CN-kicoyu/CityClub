@@ -1,11 +1,26 @@
 'use strict';
 
 import React, { Component } from 'react'
-import { Text, View, Image, StyleSheet } from 'react-native'
+import { Text, View, Image, StyleSheet, TouchableOpacity } from 'react-native'
 import TabSubNav from '../../components/TabSubNav'
 import px2dp from '../../utils/px2dp';
 
 export default class GoodsSell extends Component {
+  static navigationOptions = {
+		headerTitle: (
+			<Text style={{color: '#fff',fontSize:px2dp(38),marginLeft:px2dp(340)}}>电商</Text>
+		),
+		headerRight: (
+            <TouchableOpacity style={{flexDirection: 'row',alignItems: 'center'}}>
+				<Image source={require('../../assets/images/icon_search.png')}  style={{width:px2dp(41),height:px2dp(35),marginRight:px2dp(30)}}/>
+			</TouchableOpacity>
+        ),
+		headerStyle: {
+			backgroundColor: '#4f95ff'
+			
+		}  
+	}
+
   constructor(props) {
     super(props)
   }
@@ -13,10 +28,6 @@ export default class GoodsSell extends Component {
   render() {
     return (
       <View style={{ flex: 1,justifyContent: 'flex-start' }}>
-        <View style={styles.headWrap} >
-          <Text style={styles.headTitle}>电商</Text>
-          <Image style={styles.headSearch} source={require('../../assets/images/icon_search.png')} />
-        </View>
         <View style={styles.tabWrap}>
           <TabSubNav navigator={this.props.navigator}/>
           <View style={styles.tabDown}>
@@ -53,8 +64,7 @@ const styles = StyleSheet.create({
   tabWrap: {
     flex: 1, 
     height: px2dp(110),
-    position:'relative',
-    
+    position:'relative'
   },
   tabDown: {
     width: px2dp(100),
@@ -69,7 +79,9 @@ const styles = StyleSheet.create({
     alignItems:'center',
     position:'absolute',
     top: 0,
-    right:0
+    right:0,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc'
   },
   tabDownIcon: {
     marginTop: px2dp(50),

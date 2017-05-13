@@ -1,7 +1,7 @@
 'use strict';
 
 import React, { Component } from 'react';
-import { StyleSheet, Text, Image, View } from 'react-native';
+import { StyleSheet, Text, Image, View, Alert } from 'react-native';
 import ScrollableTabView, { ScrollableTabBar } from 'react-native-scrollable-tab-view';
 import px2dp from '../utils/px2dp';
 import SellTabContent from '../pages/Goods/SellTabContent';
@@ -57,6 +57,218 @@ export default class TabSubNav extends Component {
         }
     }
 
+    // 初始页面数据渲染
+    componentDidMount() {
+        this._getFromApiAsync()
+        
+    }
+
+    // 异步获取数据
+    async _getFromApiAsync() {
+        
+        try {
+            // 获取token
+            let response = await fetch('http://v2.mashupcloud.cn/developer/auth.do?appkey=UotqFqitgOlLtisTMtMBwAfvmzPjdoTo&appsecret=orBlqdwKIZOwiTvEWmrZfpKysvDLLIwn')
+            let responseResult = await response.json()
+            
+            // 获取数据
+            let responseData = await fetch('http://v2.mashupcloud.cn/LIST/BizChannel/?appid=337&pageSize=108&token=' + responseResult[1])
+            let result = await responseData.json()
+
+            // 不用await
+            if (result[0] === 'OK' && result[2].length !== 0) {
+                this.setState({
+                    contentImg0: [
+                        {
+                            title: '母婴分类推荐',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.titleId === 5 && item.sort === 1
+                            })
+                        },
+                        {
+                            title: '男神绅士之家',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.titleId === 2 && item.sort === 1
+                            })
+                        },
+                        {
+                            title: '女神夏季专场',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.titleId === 1 && item.sort === 1
+                            })
+                        }
+                    ],
+                    contentImg1: [
+                        {
+                            title: '女神夏季专场-裙子',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 101
+                            })
+                        },
+                        {
+                            title: '女神夏季专场-上衣',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 102
+                            })
+                        },
+                        {
+                            title: '女神夏季专场-裤子',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 103
+                            })
+                        }
+                    ],
+                    contentImg3: [
+                        {
+                            title: '女鞋',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 301
+                            })
+                        },
+                        {
+                            title: '男鞋',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 302
+                            })
+                        },
+                        {
+                            title: '靴子',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 303
+                            })
+                        }
+                    ],
+                    contentImg2: [
+                        {
+                            title: '男神绅士之家-风衣',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 201
+                            })
+                        },
+                        {
+                            title: '男神绅士之家-T恤',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 202
+                            })
+                        },
+                        {
+                            title: '男神绅士之家-裤子',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 203
+                            })
+                        }
+                    ],
+                    contentImg4: [
+                        {
+                            title: '女包',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 401
+                            })
+                        },
+                        {
+                            title: '男包',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 402
+                            })
+                        },
+                        {
+                            title: '拉杆箱',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 403
+                            })
+                        }
+                    ],
+                    contentImg5: [
+                        {
+                            title: '女包',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 501
+                            })
+                        },
+                        {
+                            title: '男包',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 502
+                            })
+                        },
+                        {
+                            title: '拉杆箱',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 503
+                            })
+                        }
+                    ],
+                    contentImg6: [
+                        {
+                            title: '婴儿',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 601
+                            })
+                        },
+                        {
+                            title: '孕妇',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 602
+                            })
+                        },
+                        {
+                            title: '护肤品',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 603
+                            })
+                        }
+                    ],
+                    contentImg7: [
+                        {
+                            title: '保暖衫',
+                            titleURL: require('../assets/images/bg_img-1.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 701
+                            })
+                        },
+                        {
+                            title: '女性内衣',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 702
+                            })
+                        },
+                        {
+                            title: '男性内衣',
+                            titleURL: require('../assets/images/bg_img-2.jpg'),
+                            subURL: result[2].filter((item) => {
+                                return item.subId === 703
+                            })
+                        }
+                    ]
+                })
+            }
+        } catch (error) {
+            Alert.alert('error')
+        }
+    }
+
     render() {
         return (
             <ScrollableTabView
@@ -69,7 +281,8 @@ export default class TabSubNav extends Component {
                     this.state.subName.map((item, i) => {
                         return (
                             <View tabLabel={item.title} key={i} tabTag={item.title} >
-                                <SellTabContent />
+                                {/*不同页面渲染不同数据*/}
+                                <SellTabContent contentImgs={this.state['contentImg' + i]} />
                             </View>
                         )
                     })
