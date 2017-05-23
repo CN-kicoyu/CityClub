@@ -28,25 +28,37 @@ export default class CustomTab extends Component {
         )
     }
     renderTabOption(item, i) {
-        return (
-            <TouchableOpacity onPress={() => this.props.goToPage(i)} style={styles.tab} key={i}>
-                <View style={styles.tabItem}>
+        if (item.hoverURL) {
+            return (
+                <TouchableOpacity onPress={() => this.props.goToPage(i)} style={[styles.tab,styles.widthStyle]} key={i}>
                     <Image style={styles.customIcon} source={this.props.activeTab === i ? item.hoverURL : item.normalURL} />
                     <Text style={[styles.customTxt, this.props.activeTab === i && styles.active]}>{item.title}</Text>
-                </View>
-            </TouchableOpacity>
-        );
+                </TouchableOpacity>
+            );
+        } else {
+            return (
+                <TouchableOpacity onPress={() => this.props.goToPage(i)} style={[styles.tab,styles.arryWidth]} key={i}>
+                    <Text style={[styles.arryTxt, this.props.activeTab === i && styles.active]}>{item}</Text>
+                </TouchableOpacity>
+            );
+        }
+
     }
 }
 
 const styles = StyleSheet.create({
     tab: {
-        width: px2dp(118),
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#fff',
         borderBottomWidth: 1,
         borderBottomColor: '#ccc'
+    },
+    widthStyle: {
+        width: px2dp(118)
+    },
+    arryWidth: {
+        width: px2dp(88)
     },
     customIcon: {
         width: px2dp(40),
@@ -56,6 +68,10 @@ const styles = StyleSheet.create({
         color: '#585858',
         fontSize: px2dp(22),
         marginTop: px2dp(13)
+    },
+    arryText: {
+        color: '#585858',
+        fontSize: px2dp(32)
     },
     active: {
         color: "#4f95ff",

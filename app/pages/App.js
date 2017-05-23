@@ -4,7 +4,8 @@ import { StackNavigator, TabNavigator } from 'react-navigation'
 
 import GoodsSell from './Goods/GoodsSell';
 import PersonalSet from './Personal/PersonalSet';
-import Home from './Home/Home';
+import HomePage from './Home/HomePage';
+import HomeDetail from './Home/HomeDetail';
 import Clubs from './Clubs/ClubPage';
 import Discover from './Discover/Discover';
 import GoodsDetails from './Goods/goodsDetail'
@@ -20,8 +21,8 @@ export default class App extends Component {
 }
 
 const TabNav = TabNavigator({
-    Home: {
-        screen: Home,
+    HomePage: {
+        screen: HomePage,
         navigationOptions: ({ navigation }) => ({
             tabBarLabel: '首页',
             tabBarIcon: ({ tintColor }) => (
@@ -117,7 +118,8 @@ const TabNav = TabNavigator({
 // })
 const Navigator = StackNavigator({
     TabNav: { screen: TabNav },
-    GoodsDetails: { screen: GoodsDetails }
+    GoodsDetails: { screen: GoodsDetails },
+    HomeDetail: { screen: HomeDetail }
 })
 
 const styles = StyleSheet.create({
