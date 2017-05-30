@@ -6,6 +6,7 @@ import GoodsSell from './Goods/GoodsSell';
 import PersonalSet from './Personal/PersonalSet';
 import HomePage from './Home/HomePage';
 import HomeDetail from './Home/HomeDetail';
+import Comments from './Home/Comments';
 import Clubs from './Clubs/ClubPage';
 import Discover from './Discover/Discover';
 import GoodsDetails from './Goods/goodsDetail'
@@ -119,7 +120,8 @@ const TabNav = TabNavigator({
 const Navigator = StackNavigator({
     TabNav: { screen: TabNav },
     GoodsDetails: { screen: GoodsDetails },
-    HomeDetail: { screen: HomeDetail }
+    HomeDetail: { screen: HomeDetail },
+    Comments: { screen: Comments}
 })
 
 const styles = StyleSheet.create({
