@@ -8,6 +8,8 @@ import HomePage from './Home/HomePage';
 import HomeDetail from './Home/HomeDetail';
 import Comments from './Home/Comments';
 import Clubs from './Clubs/ClubPage';
+import ClubCategory from './Clubs/ClubCategory';
+import ClubDetail from './Clubs/ClubDetail';
 import Discover from './Discover/Discover';
 import GoodsDetails from './Goods/goodsDetail'
 
@@ -94,7 +96,7 @@ const TabNav = TabNavigator({
             activeTintColor: 'rgb(22,131,251)',
             inactiveTintColor: '#959595',
             pressColor: 'rgb(22,131,251)',
-            style: { backgroundColor: '#ffffff', height: px2dp(98) },
+            style: { backgroundColor: '#ffffff', height: px2dp(98),borderTopWidth:1,borderTopColor:'#ccc' },
             indicatorStyle: { height: 1 },
             showIcon: true,
             labelStyle: {
@@ -121,7 +123,9 @@ const Navigator = StackNavigator({
     TabNav: { screen: TabNav },
     GoodsDetails: { screen: GoodsDetails },
     HomeDetail: { screen: HomeDetail },
-    Comments: { screen: Comments}
+    Comments: { screen: Comments},
+    ClubCategory: { screen: ClubCategory},
+    ClubDetail: { screen: ClubDetail}
 })
 
 const styles = StyleSheet.create({
